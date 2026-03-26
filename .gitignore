@@ -5,6 +5,7 @@ __pycache__/
 artifacts/
 data/interim/
 data/processed/
+data/raw/
 *.pt
 *.pth
 *.onnx

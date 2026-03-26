@@ -1,7 +1,7 @@
 name: citrusnet_v1
 num_classes: 5
 dropout: 0.1
-variant: v1
+variant: v3
 mv2_expand_ratio: 4
 mobilevit_dims: [96, 120, 144]
 mobilevit_depths: [2, 4, 3]

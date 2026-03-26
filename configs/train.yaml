@@ -20,4 +20,4 @@ metrics_dir: artifacts/metrics
 plots_dir: artifacts/plots
 predictions_dir: artifacts/predictions
 
-model_config: configs/model/citrusnet_v1.yaml
+model_config: configs/model/citrusnet_v2.yaml

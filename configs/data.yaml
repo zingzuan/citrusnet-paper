@@ -1,0 +1,23 @@
+seed: 42
+
+raw_citrus_dir: data/raw/citrus
+raw_plantvillage_dir: data/raw/plantvillage
+
+processed_dir: data/processed
+train_dir: data/processed/train
+val_dir: data/processed/val
+test_dir: data/processed/test
+
+split:
+  train: 0.7
+  val: 0.15
+  test: 0.15
+
+image_size: 256
+
+class_names:
+  - healthy
+  - black_spot
+  - canker
+  - greening
+  - scab

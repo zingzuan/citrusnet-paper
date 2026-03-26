@@ -1,0 +1,18 @@
+baseline_models:
+  - mbv2
+  - mobilevit
+  - citrusnet_v1
+  - citrusnet_v2
+  - citrusnet_v3
+
+main_candidate: citrusnet_v2
+
+classifier_models:
+  - mlp
+  - knn
+  - rf
+  - svm
+
+run_ssl_experiments: true
+run_monitoring_pipeline: true
+run_tflite_export: true
